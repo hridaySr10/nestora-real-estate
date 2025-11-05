@@ -1,0 +1,984 @@
+<!doctype html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="./output.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@4.7.0/fonts/remixicon.css" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css">
+
+  <link rel="stylesheet" href="assets/style/media.css">
+</head>
+
+<body>
+  <!-- ========== Start header ========== -->
+  <header class="w-full h-[80px] page-color flex-center left-0 relative z-50 bg-[#f3efea]">
+    <!-- desktop -->
+    <div
+      class="header-box w-full max-w-[1920px] mx-auto h-[80px] relative grid grid-cols-[200px_auto_200px] gap-6 [@media(max-width:1013px)]:grid-cols-[auto_auto] bg-[#f3efea] px-4 z-50">
+      <div class="logo flex-center justify-start">
+        <a href="index.html"><img loading="lazy" src="assets/images/header/logo-main.svg" alt="nestora logo image"
+            class="w-[120px] object-cover"></a>
+      </div>
+      <nav class=" flex-center gap-4 nav-main">
+        <a href="about.html" class="btn-style p-[1.8rem_.5rem] uppercase text-sm">About</a>
+        <a href="project.html" class="btn-style p-[1.8rem_.5rem] uppercase text-sm">properties</a>
+        <a href="#" class="btn-style p-[1.8rem_.5rem] uppercase text-sm">Services</a>
+        <a href="categories.html" class="btn-style p-[1.8rem_.5rem] uppercase text-sm">Categories</a>
+        <a href="#section-blog" class="btn-style p-[1.8rem_.5rem] uppercase text-sm">Blogs</a>
+      </nav>
+      <div class="header-btn flex items-center justify-end">
+        <!-- desktop nav btn -->
+        <a href="#" class="btn-style btn-style-outline">
+          <div class="btn-slide">
+            <span>Contact</span> <span>us</span>
+            <span><i class="ri-corner-down-right-fill"></i></span>
+          </div>
+          <div class="btn-hover">
+            <span>Contact</span> <span>us</span>
+            <span><i class="ri-corner-down-right-fill"></i></span>
+          </div>
+        </a>
+        <!-- mob nav btn -->
+        <input type="checkbox" id="menu-toggle" class="menu-toggle">
+        <div class="nav-menus hamburger" onclick="document.getElementById('menu-toggle').click()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </div>
+    </div>
+    <!-- mob -->
+    <!-- offcanvas -->
+    <div class="offcanvas-main w-full h-[300px] bg-white absolute  left-0 transition z-40 block">
+      <div class="offcanvas-box w-full h-full  p-4 flex-center">
+        <nav class="mob-nav-main w-full h-full flex flex-col justify-between items-start gap-4">
+          <a href="about.html" class="w-full btn-style p-[1.8rem_.5rem] uppercase text-sm">About</a>
+          <a href="project.html" class="w-full btn-style p-[1.8rem_.5rem] uppercase text-sm">properties</a>
+          <a href="#" class="w-full btn-style p-[1.8rem_.5rem] uppercase text-sm">Services</a>
+          <a href="categories.html" class="w-full btn-style p-[1.8rem_.5rem] uppercase text-sm">Categories</a>
+          <a href="#section-blog" class="w-full btn-style p-[1.8rem_.5rem] uppercase text-sm">Blogs</a>
+        </nav>
+      </div>
+    </div>
+  </header>
+  <!-- ========== End header ========== -->
+  <main class="page-about section-padding !pb-0">
+    <!-- ========== Start about-us intro ========== -->
+    <section class="about-us-page">
+      <!-- page heading -->
+      <div class="text mb-8 w-full h-auto">
+        <h2 class="page-heading !font-bold !text-center uppercase">About Us</h2>
+      </div>
+      <div class="container">
+        <div class="about-us-grid-box section-padding grid grid-cols-[1fr_1fr] gap-16 pt-6">
+
+          <!-- left -->
+          <div class="left-grid grid grid-rows-[auto_410px]">
+            <!-- heading -->
+            <div class="page-heading mb-6">
+              <h1 class="section-heading">
+                We Build Homes That Hold Meaning and Memories</h1>
+            </div>
+            <!-- img -->
+            <div class="about-page-img w-full h-auto overflow-hidden">
+              <img src="assets/images/about/about.webp" alt="about page" class="img-set">
+            </div>
+          </div>
+
+          <!-- right -->
+          <div class="right about-info flex justify-between items-start flex-col">
+
+            <!-- top info text steps -->
+            <div class="flex justify-between items-start flex-col gap-6">
+              <p class="text-[#333] !text-[16px]">At Nestora, we believe a home is more than just bricks and walls —
+                it’s the foundation of your life,
+                your
+                memories, and your future. That’s why we’re committed to creating thoughtfully designed spaces that
+                offer
+                comfort, style, and lasting value.
+                With
+                a deep understanding of what makes a space truly livable, we blend modern design with practical features
+                to
+                help you find not just a house, but a place you’ll love to call home.
+              </p>
+              <div class="about-steps">
+                <h4 class="font-[500] text-[18px] mb-6">We Help You Find Your Perfect Home in Three Easy Steps:</h4>
+                <ul class="w-full h-auto flex justify-between items-center gap-8">
+
+                  <li class="flex-center !flex-col !items-center relative">
+                    <span
+                      class="absolute left-[-10px] top-[-10px] w-[30px] h-[30px] rounded-[50%] bg-white border-black border-1 border-solid flex-center ">1</span>
+                    <span class="mb-4">
+                      <img src="assets/images/icons/about-step-1.svg" alt="about steps image"
+                        class="w-[80px] h-[80px] !object-contain">
+                    </span>
+                    <div class="flex flex-col items-center">
+                      <h6 class="text-[16px] font-[500]">Explore Homes</h6>
+
+                    </div>
+                  </li>
+
+                  <li class="flex-center !flex-col !items-center relative">
+                    <span
+                      class="absolute left-[-10px] top-[-10px] w-[30px] h-[30px] rounded-[50%] bg-white border-black border-1 border-solid flex-center ">2</span>
+                    <span class="mb-4">
+                      <img src="assets/images/icons/about-step-2.svg" alt="about steps image"
+                        class="w-[80px] h-[80px] !object-contain">
+                    </span>
+                    <div class="flex flex-col items-center">
+                      <h6 class="text-[16px] font-[500]">Connect with Us</h6>
+
+                    </div>
+                  </li>
+
+                  <li class="flex-center !flex-col !items-center relative">
+                    <span
+                      class="absolute left-[-10px] top-[-10px] w-[30px] h-[30px] rounded-[50%] bg-white border-black border-1 border-solid flex-center ">3</span>
+                    <span class="mb-4">
+                      <img src="assets/images/icons/about-step-3.svg" alt="about steps image"
+                        class="w-[80px] h-[80px] !object-contain">
+                    </span>
+                    <div class="flex flex-col items-center">
+                      <h6 class="text-[16px] font-[500]">Start Living</h6>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <!-- btn -->
+            <div class="about-btn">
+              <a href="#" class="btn-style btn-style-outline">
+                <div class="btn-slide">
+                  <span>Explore</span> <span>Property</span>
+                  <span><i class="ri-corner-down-right-fill"></i></span>
+                </div>
+                <div class="btn-hover">
+                  <span>Explore</span> <span>Property</span>
+                  <span><i class="ri-corner-down-right-fill"></i></span>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ========== End about-us intro ========== -->
+    <!-- ========== Start services ========== -->
+    <section class="about-services section-padding w-full h-auto relative">
+
+      <div class="w-full h-auto px-4">
+        <h2 class="section-heading !text-center uppercase">Our Services</h2>
+      </div>
+      <!-- boxes -->
+      <div class="service-boxes mt-16">
+        <!-- box-1 -->
+        <div
+          class="service-box box-1 relative z-10 py-10 w-full h-auto border-[#33333344] border-t-1 border-b-1 border-solid hover:bg-white transition-background-color duration-500 cursor-pointer">
+          <div class="container">
+            <!-- inner box -->
+            <div class="inner-box inner-box-1 w-full h-full grid grid-cols-[200px_auto]">
+              <div class="left sr-num">
+                <h5 class="section-heading">01</h5>
+              </div>
+              <div class="mid text-info">
+                <div class="top-heading">
+                  <h2 class="section-heading">Real Estate Trends</h2>
+                </div>
+                <div class="tags mt-4">
+                  <ul class="flex-center gap-4 !justify-start">
+                    <li class="w-fit h-fit px-2 py-1 border-1 border-[#33333344] rounded-[16px]">
+                      <p>Market Insights</p>
+                    </li>
+                    <li class="w-fit h-fit px-2 py-1 border-1 border-[#33333344] rounded-[16px]">
+                      <p>Trend Report</p>
+                    </li>
+                    <li class="w-fit h-fit px-2 py-1 border-1 border-[#33333344] rounded-[16px]">
+                      <p>Buyers Behavior</p>
+                    </li>
+                    <li class="w-fit h-fit px-2 py-1 border-1 border-[#33333344] rounded-[16px]">
+                      <p>Rental Analysis</p>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+
+              <!-- img absolute -->
+              <img src="assets/images/about/tag-1.webp" alt="tag images"
+                class="w-[500px] h-[300px] object-cover absolute top-[10%] right-[16px] inline-block z-5">
+
+            </div>
+          </div>
+        </div>
+        <!-- box-2 -->
+        <div
+          class="service-box box-1 relative z-9 py-10 w-full h-auto border-[#33333344] border-b-1 border-solid hover:bg-white transition-background-color duration-500 cursor-pointer">
+          <div class="container">
+            <!-- inner box -->
+            <div class="inner-box inner-box-1 w-full h-full grid grid-cols-[200px_auto]">
+              <div class="left sr-num">
+                <h5 class="section-heading">02</h5>
+              </div>
+              <div class="mid text-info">
+                <div class="top-heading">
+                  <h2 class="section-heading">Buying Assistance</h2>
+                </div>
+                <div class="tags mt-4">
+                  <ul class="flex-center gap-4 !justify-start">
+                    <li class="w-fit h-fit px-2 py-1 border-1 border-[#33333344] rounded-[16px]">
+                      <p>Property Search</p>
+                    </li>
+                    <li class="w-fit h-fit px-2 py-1 border-1 border-[#33333344] rounded-[16px]">
+                      <p>Market Analysis</p>
+                    </li>
+                    <li class="w-fit h-fit px-2 py-1 border-1 border-[#33333344] rounded-[16px]">
+                      <p>Legal Support</p>
+                    </li>
+                    <li class="w-fit h-fit px-2 py-1 border-1 border-[#33333344] rounded-[16px]">
+                      <p>Virtual Tour</p>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+
+              <!-- img absolute -->
+              <img src="assets/images/about/tag-2.webp" alt="tag images"
+                class="w-[500px] h-[300px] object-cover absolute top-[10%] right-[16px] inline-block z-5">
+
+            </div>
+          </div>
+        </div>
+        <!-- box-3 -->
+        <div
+          class="service-box box-3 relative z-8 py-10 w-full h-auto border-[#33333344] border-b-1 border-solid hover:bg-white transition-background-color duration-500 cursor-pointer">
+          <div class="container">
+            <!-- inner box -->
+            <div class="inner-box inner-box-1 w-full h-full grid grid-cols-[200px_auto]">
+              <div class="left sr-num">
+                <h5 class="section-heading">03</h5>
+              </div>
+              <div class="mid text-info">
+                <div class="top-heading">
+                  <h2 class="section-heading">Selling Solutions</h2>
+                </div>
+                <div class="tags mt-4">
+                  <ul class="flex-center gap-4 !justify-start">
+                    <li class="w-fit h-fit px-2 py-1 border-1 border-[#33333344] rounded-[16px]">
+                      <p>Seller Consultation</p>
+                    </li>
+                    <li class="w-fit h-fit px-2 py-1 border-1 border-[#33333344] rounded-[16px]">
+                      <p>Staging Support</p>
+                    </li>
+                    <li class="w-fit h-fit px-2 py-1 border-1 border-[#33333344] rounded-[16px]">
+                      <p>Property Valuation</p>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+
+              <!-- img absolute -->
+              <img src="assets/images/about/tag-3.webp" alt="tag images"
+                class="w-[500px] h-[300px] object-cover absolute top-[10%] right-[16px] inline-block">
+
+            </div>
+          </div>
+        </div>
+        <!-- box-4 -->
+        <div
+          class="service-box box-4 relative z-8 py-10 w-full h-auto border-[#33333344] border-b-1 border-solid hover:bg-white transition-background-color duration-500 cursor-pointer">
+          <div class="container">
+            <!-- inner box -->
+            <div class="inner-box inner-box-1 w-full h-full grid grid-cols-[200px_auto]">
+              <div class="left sr-num">
+                <h5 class="section-heading">04</h5>
+              </div>
+              <div class="mid text-info">
+                <div class="top-heading">
+                  <h2 class="section-heading">Investment Guidance</h2>
+                </div>
+                <div class="tags mt-4">
+                  <ul class="flex-center gap-4 !justify-start">
+                    <li class="w-fit h-fit px-2 py-1 border-1 border-[#33333344] rounded-[16px]">
+                      <p>ROI Analysis</p>
+                    </li>
+                    <li class="w-fit h-fit px-2 py-1 border-1 border-[#33333344] rounded-[16px]">
+                      <p>Risk Assessment</p>
+                    </li>
+                    <li class="w-fit h-fit px-2 py-1 border-1 border-[#33333344] rounded-[16px]">
+                      <p>Tax Strategies</p>
+                    </li>
+                    <li class="w-fit h-fit px-2 py-1 border-1 border-[#33333344] rounded-[16px]">
+                      <p>Legal Consultation</p>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+
+              <!-- img absolute -->
+              <img src="assets/images/about/tag-4.webp" alt="tag images"
+                class="w-[500px] h-[300px] object-cover absolute top-[10%] right-[16px] inline-block">
+
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+    </section>
+    <!-- ========== End services ========== -->
+    <!-- ========== Start section contact ========== -->
+    <section class="section-contact section-padding w-full h-auto bg-white">
+      <div class="container">
+        <div class="about-contact-grid w-full h-full grid grid-cols-[1fr_.8fr] gap-16">
+          <div class="contact-info w-full h-full flex flex-col items-start justify-between gap-8">
+            <!-- top -->
+            <div class="top">
+              <p class="!text-[16px] text-[#333]">The numbers say it all years of experience, thousands of properties
+                listed, and a growing community of
+                satisfied clients. These figures underline our dedication to transforming the real estate experience.
+              </p>
+            </div>
+            <!-- mdl -->
+            <div class="mdl numbers w-full h-auto flex flex-col justify-start">
+              <!-- row-1 -->
+              <div
+                class="row row-1 flex justify-between items-center py-4  border-[#33333344] border-t-1 border-b-1 border-solid">
+                <div class="numbers">
+                  <h3 class="section-heading">15+ Years</h3>
+                </div>
+                <div class="number-info w-[280px]">
+                  <p class="">Decades of expertise delivering innovative real estate solutions.</p>
+                </div>
+              </div>
+              <!-- row-2 -->
+              <div
+                class="row row-1 flex justify-between items-center py-4  border-[#33333344]  border-b-1 border-solid">
+                <div class="numbers">
+                  <h3 class="section-heading">82% Growth</h3>
+                </div>
+                <div class="number-info w-[280px]">
+                  <p class="">Rapid expansion as more people rely on our services.</p>
+                </div>
+              </div>
+              <!-- row-3 -->
+              <div
+                class="row row-3 flex justify-between items-center py-4  border-[#33333344]  border-b-1 border-solid">
+                <div class="numbers">
+                  <h3 class="section-heading">₹57 Crore+</h3>
+                </div>
+                <div class="number-info w-[280px]">
+                  <p class="">Total real estate transactions handled on our platform.</p>
+                </div>
+              </div>
+
+            </div>
+            <!-- end -->
+            <div
+              class="btm w-full h-auto flex flex-col justify-between items-center p-4 border-1 border-[#333] rounded-[20px] border-solid">
+              <h3 class="mb-4 text-[18px] text-[#050017] font-[500]">We’re Just a Call Away</h3>
+              <div class="call-icon w-full h-auto flex justify-between items-center">
+
+                <!-- call -->
+                <div class="call-now-info flex-center gap-4">
+                  <span class="inline-block w-15 h-15 rounded-[50%] bg-[#333] flex-center"><i
+                      class="ri-phone-fill text-[24px] text-white"></i></span>
+                  <div class="flex flex-col items-start">
+                    <h5 class="text-[#333] text-[16px]">Give Us a Ring-</h5>
+                    <a href="tel:=916268737695" class="text-[1.3rem] text-[#050017]">+91 6289737695</a>
+                  </div>
+                </div>
+                <!-- mail -->
+                <div class="call-now-info flex-center gap-4">
+                  <span class="inline-block w-15 h-15 rounded-[50%] bg-[#333] flex-center"><i
+                      class="ri-mail-fill text-[24px] text-white"></i></span>
+                  <div class="flex flex-col items-start">
+                    <h5 class="text-[#333] text-[16px]">Send Your Inquiry-</h5>
+                    <a href="mailto:nestora-info@gmail.com"
+                      class="text-[1.3rem] text-[#050017]">nestora-info@gmail.com</a>
+                  </div>
+                </div>
+
+              </div>
+              <div class="call-num"></div>
+            </div>
+          </div>
+          <div class="contact-img w-full h-[680px] overflow-hidden">
+            <img src="assets/images/about/contact-1.webp" alt="about-contact image" class="img-set">
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ========== End section contact ========== -->
+    <!-- ========== Start section-agent ========== -->
+    <section class="about-agents w-full h-auto section-padding">
+      <div class="w-full h-auto px-4">
+        <h2 class="section-heading !text-center uppercase mb-16">Agents Who Walk With You
+        </h2>
+      </div>
+      <div class="container">
+        <div class="about-agents-grid-box w-full h-auto grid grid-cols-[repeat(auto-fit,minmax(400px,_1fr))] gap-8">
+
+          <!-- agent-1 -->
+          <div class="agent agent-1 w-full h-[600px] relative splide__slide overflow-hidden">
+            <div class="slide-box w-full h-full flex flex-col justify-between items-start p-6 bg-white">
+              <div class="top w-full h-full flex flex-col justify-start items-start gap-2 overflow-hidden">
+                <img src="assets/images/about/agent-1.webp" alt="our agent image" class="img-set">
+              </div>
+              <div class="btm w-full h-auto flex flex-col items-start justify-end py-4 bg-white">
+                <h3 class="text-[18px] ">Emili Mathew</h3>
+                <p class="text-[#333]">Planing Consultant</p>
+              </div>
+            </div>
+
+            <!-- customer slide view -->
+            <div
+              class="user-msg-box absolute top-0 left-0 w-full h-full bg-[#333] p-6 text-white flex flex-col justify-between items-center">
+              <div class="name-img-social w-full flex justify-between items-start">
+                <!-- agent-img -->
+                <div class="agent-img w-[150px] mb-2">
+                  <img src="assets/images/about/agent-1.webp" alt="image of agent">
+                </div>
+                <!-- text-social -->
+                <div class="left flex justify-end flex-col items-start gap-4">
+                  <!-- name -->
+                  <div class="user-name flex items-center justify-between w-full">
+                    <div class="">
+                      <h6 class="text-[clamp(1.1rem,_2vw,_1.3rem)] fw-[400]">Emili Mathew</h6>
+                      <p>Planning Consultant</p>
+                    </div>
+                  </div>
+                  <!-- social -->
+                  <div class="agent-social btm mt-6 flex justify-start items-start gap-4 w-full">
+                    <a href="#"
+                      class="group inline-block icon icon-1 w-[50px] h-[50px] rounded-[50%] border-white border-1 flex-center hover:bg-white transition-colors duration-300">
+                      <i
+                        class="ri-facebook-fill text-white text-[18px] group-hover:text-black transition-colors duration-300"></i>
+                    </a>
+
+                    <a href="#"
+                      class="group inline-block icon icon-1 w-[50px] h-[50px] rounded-[50%] border-white border-1 flex-center hover:bg-white transition-colors duration-300">
+                      <i
+                        class="ri-instagram-fill text-white text-[18px] group-hover:text-black transition-colors duration-300"></i>
+                    </a>
+
+                    <a href="#"
+                      class="group inline-block icon icon-1 w-[50px] h-[50px] rounded-[50%] border-white border-1 flex-center hover:bg-white transition-colors duration-300">
+                      <i
+                        class="ri-twitter-x-fill text-white text-[18px] group-hover:text-black transition-colors duration-300"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <!-- message -->
+              <div class="user-msg h-full flex items-end justify-end">
+                <h6 class="text-[clamp(16px,_2vw,_18px)] fw-light inline-block ">"Hi, I’m Emili. I believe every home
+                  search starts with understanding your story. I take the time to listen, learn what matters most to
+                  you, and guide you with empathy and insight. Let’s find a space that truly feels like yours."</h6>
+              </div>
+            </div>
+          </div>
+
+          <!-- agent-2 -->
+          <div class="agent agent-2 w-full h-[600px] relative splide__slide overflow-hidden">
+            <div class="slide-box w-full h-full flex flex-col justify-between items-start p-6 bg-white">
+              <div class="top w-full h-full flex flex-col justify-start items-start gap-2 overflow-hidden">
+                <img src="assets/images/about/agent-2.webp" alt="our agent image" class="img-set">
+              </div>
+              <div class="btm w-full h-auto flex flex-col items-start justify-end py-4 bg-white">
+                <h3 class="text-[18px] ">John Jhonson</h3>
+                <p class="text-[#333]">Financing Specialist</p>
+              </div>
+            </div>
+
+            <!-- customer slide view -->
+            <div
+              class="user-msg-box absolute top-0 left-0 w-full h-full bg-[#333] p-6 text-white flex flex-col justify-between items-center">
+              <div class="name-img-social w-full flex justify-between items-start">
+                <!-- agent-img -->
+                <div class="agent-img w-[150px] mb-2">
+                  <img src="assets/images/about/agent-2.webp" alt="image of agent">
+                </div>
+                <!-- text-social -->
+                <div class="left flex justify-end flex-col items-start gap-4">
+                  <!-- name -->
+                  <div class="user-name flex items-center justify-between w-full">
+                    <div class="">
+                      <h6 class="text-[clamp(1.1rem,_2vw,_1.3rem)] fw-[400]">John Jhonson</h6>
+                      <p>Financing Specialistt</p>
+                    </div>
+                  </div>
+                  <!-- social -->
+                  <div class="agent-social btm mt-6 flex justify-start items-start gap-4 w-full">
+                    <a href="#"
+                      class="group inline-block icon icon-1 w-[50px] h-[50px] rounded-[50%] border-white border-1 flex-center hover:bg-white transition-colors duration-300">
+                      <i
+                        class="ri-facebook-fill text-white text-[18px] group-hover:text-black transition-colors duration-300"></i>
+                    </a>
+
+                    <a href="#"
+                      class="group inline-block icon icon-1 w-[50px] h-[50px] rounded-[50%] border-white border-1 flex-center hover:bg-white transition-colors duration-300">
+                      <i
+                        class="ri-instagram-fill text-white text-[18px] group-hover:text-black transition-colors duration-300"></i>
+                    </a>
+
+                    <a href="#"
+                      class="group inline-block icon icon-1 w-[50px] h-[50px] rounded-[50%] border-white border-1 flex-center hover:bg-white transition-colors duration-300">
+                      <i
+                        class="ri-twitter-x-fill text-white text-[18px] group-hover:text-black transition-colors duration-300"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <!-- message -->
+              <div class="user-msg h-full flex items-end justify-end">
+                <h6 class="text-[clamp(16px,_2vw,_18px)] fw-light inline-block">"Hi, I’m John. I bring financial
+                  clarity to your property decisions. Whether you're budgeting for your first home or planning a smart
+                  investment, I’ll help you understand the numbers, assess risks, and make confident, informed choices.
+                  Real estate isn’t just about location — it’s about financial vision.”
+                </h6>
+              </div>
+            </div>
+          </div>
+
+          <!-- agent-3 -->
+          <div class="agent agent-3 w-full h-[600px] relative splide__slide overflow-hidden">
+            <div class="slide-box w-full h-full flex flex-col justify-between items-start p-6 bg-white">
+              <div class="top w-full h-full flex flex-col justify-start items-start gap-2 overflow-hidden">
+                <img src="assets/images/about/agent-3.webp" alt="our agent image" class="img-set">
+              </div>
+              <div class="btm w-full h-auto flex flex-col items-start justify-end py-4 bg-white">
+                <h3 class="text-[18px] ">Nitin Roy</h3>
+                <p class="text-[#333]">Investment Advisor</p>
+              </div>
+            </div>
+            <!-- customer slide view -->
+            <div
+              class="user-msg-box absolute top-0 left-0 w-full h-full bg-[#333] p-6 text-white flex flex-col justify-between items-center">
+              <div class="name-img-social w-full flex justify-between items-start">
+                <!-- agent-img -->
+                <div class="agent-img w-[150px] mb-2">
+                  <img src="assets/images/about/agent-3.webp" alt="image of agent">
+                </div>
+                <!-- text-social -->
+                <div class="left flex justify-end flex-col items-start gap-4">
+                  <!-- name -->
+                  <div class="user-name flex items-center justify-between w-full">
+                    <div class="">
+                      <h6 class="text-[clamp(1.1rem,_2vw,_1.3rem)] fw-[400]">Nitin Roy</h6>
+                      <p>Investment Advisor</p>
+                    </div>
+                  </div>
+                  <!-- social -->
+                  <div class="agent-social btm mt-6 flex justify-start items-start gap-4 w-full">
+                    <a href="#"
+                      class="group inline-block icon icon-1 w-[50px] h-[50px] rounded-[50%] border-white border-1 flex-center hover:bg-white transition-colors duration-300">
+                      <i
+                        class="ri-facebook-fill text-white text-[18px] group-hover:text-black transition-colors duration-300"></i>
+                    </a>
+
+                    <a href="#"
+                      class="group inline-block icon icon-1 w-[50px] h-[50px] rounded-[50%] border-white border-1 flex-center hover:bg-white transition-colors duration-300">
+                      <i
+                        class="ri-instagram-fill text-white text-[18px] group-hover:text-black transition-colors duration-300"></i>
+                    </a>
+
+                    <a href="#"
+                      class="group inline-block icon icon-1 w-[50px] h-[50px] rounded-[50%] border-white border-1 flex-center hover:bg-white transition-colors duration-300">
+                      <i
+                        class="ri-twitter-x-fill text-white text-[18px] group-hover:text-black transition-colors duration-300"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <!-- message -->
+              <div class="user-msg h-full flex items-end justify-end">
+                <h6 class="fw-light inline-block">"Hi, I’m Nitin. I help you see the full
+                  picture — from budgeting and financing to long-term value. Whether you're buying your first home or
+                  planning your next investment, I’ll guide you through the numbers with clarity and care. Let’s make
+                  your money work smarter for your future.”
+                </h6>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+    </section>
+    <!-- ========== End section-agent ========== -->
+    <!-- ========== Start section-faq ========== -->
+    <section class="section-faq section-padding w-full h-auto">
+      <div class="container">
+        <div class="section-faq-grid-box grid grid-cols-[350px_1fr] gap-24">
+          <div class="faq-heading">
+            <h2 class="section-heading mb-4">Questions You Might Have</h2>
+            <p>We’ve answered what most buyers ask — and we’re always here for more.</p>
+          </div>
+          <div class="faq-accordion w-full h-auto">
+            <!-- main-accordion box -->
+            <div class="accordion-flex-box w-full h-auto flex flex-col justify-start items-start">
+
+              <!-- Accordion Item 1 -->
+              <div class="accordion accordion-box rounded-lg overflow-hidden">
+
+                <!-- accordion heading -->
+                <div
+                  class="accordion-heading p-4 flex justify-between items-center cursor-pointer select-none border-[#33333344] border-b-1 border-solid">
+                  <h6 class="text-[24px] font-medium text-[#050017]">Can I visit a property before deciding?</h6>
+                  <!-- accordion-close-icon
+                    -->
+                  <div class="accordion-close-btn w-[100px] h-[50px] flex-center">
+                    <input type="checkbox" id="accordion-toggle" class="menu-toggle">
+                    <div class="nav-menus hamburger" onclick="document.getElementById('accordion-toggle').click()">
+                      <span></span>
+                      <span></span>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- accordion body -->
+                <div class="accordion-body max-h-0 overflow-hidden">
+                  <div class="p-4">
+                    <p class="!text-[16px] text-[#333]">Yes, we encourage it. You can schedule a visit
+                      at
+                      a time that
+                      works for you. Our team will walk
+                      you through the space, answer your questions, and help you get a real feel for the property before
+                      making any decisions.</p>
+                  </div>
+                </div>
+
+              </div>
+
+              <!-- Accordion Item 2 -->
+              <div class="accordion accordion-box rounded-lg overflow-hidden">
+
+                <!-- accordion heading -->
+                <div
+                  class="accordion-heading p-4 flex justify-between items-center cursor-pointer select-none border-[#33333344] border-b-1 border-solid">
+                  <h6 class="text-[24px] font-medium text-[#050017]">How do I start looking for a home?</h6>
+                  <!-- accordion-close-icon
+                    -->
+                  <div class="accordion-close-btn w-[100px] h-[50px] flex-center">
+                    <input type="checkbox" id="accordion-toggle" class="menu-toggle">
+                    <div class="nav-menus hamburger" onclick="document.getElementById('accordion-toggle').click()">
+                      <span></span>
+                      <span></span>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- accordion body -->
+                <div class="accordion-body max-h-0 overflow-hidden">
+                  <div class="p-4">
+                    <p class="!text-[18px] text-[#333]">You can begin by browsing our curated listings or reaching out
+                      to
+                      our team directly. We’ll help
+                      you explore options that match your lifestyle, budget, and future goals — whether you're buying
+                      your first home or upgrading to something new.</p>
+                  </div>
+                </div>
+
+              </div>
+
+              <!-- Accordion Item 3 -->
+              <div class="accordion accordion-box rounded-lg overflow-hidden">
+
+                <!-- accordion heading -->
+                <div
+                  class="accordion-heading p-4 flex justify-between items-center cursor-pointer select-none border-[#33333344] border-b-1 border-solid">
+                  <h6 class="text-[24px] font-medium text-[#050017]">Do you help with paperwork and legal formalities?
+                  </h6>
+                  <!-- accordion-close-icon
+                    -->
+                  <div class="accordion-close-btn w-[100px] h-[50px] flex-center">
+                    <input type="checkbox" id="accordion-toggle" class="menu-toggle">
+                    <div class="nav-menus hamburger" onclick="document.getElementById('accordion-toggle').click()">
+                      <span></span>
+                      <span></span>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- accordion body -->
+                <div class="accordion-body max-h-0 overflow-hidden">
+                  <div class="p-4">
+                    <p class="!text-[18px] text-[#333]">Absolutely. We assist with all the necessary documentation,
+                      legal
+                      checks, and formalities to
+                      ensure your home-buying process is smooth, transparent, and stress-free. You won’t have to
+                      navigate it alone.</p>
+                  </div>
+                </div>
+
+              </div>
+
+              <!-- Accordion Item 4 -->
+              <div class="accordion accordion-box rounded-lg overflow-hidden">
+
+                <!-- accordion heading -->
+                <div
+                  class="accordion-heading p-4 flex justify-between items-center cursor-pointer select-none border-[#33333344] border-b-1 border-solid">
+                  <h6 class="text-[24px] font-medium text-[#050017]">What if I’m not sure what kind of home I need?</h6>
+                  <!-- accordion-close-icon
+                    -->
+                  <div class="accordion-close-btn w-[100px] h-[50px] flex-center">
+                    <input type="checkbox" id="accordion-toggle" class="menu-toggle">
+                    <div class="nav-menus hamburger" onclick="document.getElementById('accordion-toggle').click()">
+                      <span></span>
+                      <span></span>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- accordion body -->
+                <div class="accordion-body max-h-0 overflow-hidden">
+                  <div class="p-4">
+                    <p class="!text-[18px] text-[#333]">That’s perfectly okay. We’ll help you clarify your needs —
+                      whether it’s space, location, budget,
+                      or future plans — and guide you toward homes that truly fit your lifestyle and vision.</p>
+                  </div>
+                </div>
+
+              </div>
+
+              <!-- Accordion Item 5 -->
+              <div class="accordion accordion-box rounded-lg overflow-hidden">
+
+                <!-- accordion heading -->
+                <div
+                  class="accordion-heading p-4 flex justify-between items-center cursor-pointer select-none border-[#33333344] border-b-1 border-solid">
+                  <h6 class="text-[24px] font-medium text-[#050017]">Are your listings updated regularly?
+                  </h6>
+                  <!-- accordion-close-icon
+                    -->
+                  <div class="accordion-close-btn w-[100px] h-[50px] flex-center">
+                    <input type="checkbox" id="accordion-toggle" class="menu-toggle">
+                    <div class="nav-menus hamburger" onclick="document.getElementById('accordion-toggle').click()">
+                      <span></span>
+                      <span></span>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- accordion body -->
+                <div class="accordion-body max-h-0 overflow-hidden">
+                  <div class="p-4">
+                    <p class="!text-[18px] text-[#333]">Yes, we keep our listings fresh and accurate so you always see
+                      what’s truly available. We believe
+                      in transparency, so you won’t waste time on outdated or unavailable properties.</p>
+                  </div>
+                </div>
+
+              </div>
+
+              <!-- Accordion Item 6 -->
+              <div class="accordion accordion-box rounded-lg overflow-hidden">
+
+                <!-- accordion heading -->
+                <div
+                  class="accordion-heading p-4 flex justify-between items-center cursor-pointer select-none border-[#33333344] border-b-1 border-solid">
+                  <h6 class="text-[24px] font-medium text-[#050017]">How do I contact your team?
+                  </h6>
+                  <!-- accordion-close-icon
+                    -->
+                  <div class="accordion-close-btn w-[100px] h-[50px] flex-center">
+                    <input type="checkbox" id="accordion-toggle" class="menu-toggle">
+                    <div class="nav-menus hamburger" onclick="document.getElementById('accordion-toggle').click()">
+                      <span></span>
+                      <span></span>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- accordion body -->
+                <div class="accordion-body max-h-0 overflow-hidden">
+                  <div class="p-4">
+                    <p class="!text-[18px] text-[#333]">You can call, message, or email us anytime. We’re here to
+                      listen,
+                      answer your questions, and help
+                      you take the next step toward finding a space that feels like home.</p>
+                  </div>
+                </div>
+
+              </div>
+
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+    </section>
+    <!-- ========== End section-faq ========== -->
+
+
+
+
+  </main>
+
+  <!-- ========== Start cta ========== -->
+  <section class="section-cta properties section-padding w-full h-auto overflow-hidden relative z-10">
+    <div class="container">
+      <div class="cta-img-box w-full h-[90vh] flex-center relative overflow-hidden">
+        <img loading="lazy" src="assets/images/footer/img-1.webp" alt="section cta image"
+          class="img-set object-bottom relative z-2">
+
+        <!-- overlay text -->
+        <div
+          class="overlay-text absolute top-0 left-0 w-full h-full bg-[rgba(0,0,0,.5)] z-3 flex flex-col justify-center items-center gap-12">
+          <!-- text -->
+          <div class="w-full h-auto flex flex-col justify-center items-center gap-3">
+            <div class="overflow-hidden">
+              <h2 class="section-heading !text-white !text-center">Thousands Have Found Their Perfect Match</h2>
+            </div>
+            <div class="overflow-hidden ">
+              <h2 class="section-heading !text-white !font-[600]">You Can Too</h2>
+            </div>
+          </div>
+          <!-- btn -->
+          <div class="btn w-full h-auto flex-center overflow-hidden">
+            <a href="#" class="cta-btn btn-style btn-style-outline">
+              <div class="btn-slide">
+                <span>Start Your</span> <span>Search</span>
+                <span><i class="ri-corner-down-right-fill"></i></span>
+              </div>
+              <div class="btn-hover">
+                <span>Start Your</span> <span>Search</span>
+                <span><i class="ri-corner-down-right-fill"></i></span>
+              </div>
+            </a>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- ========== End cta ========== -->
+  <!-- ========== Start footer ========== -->
+  <footer class=" bg-black w-full h-auto mt-[-200px] relative z-3">
+    <div class="footer-main w-full h-auto bg-black">
+      <div class="container bg-black relative z-2">
+        <div class=" w-full h-auto pt-[200px] ">
+          <div class="footer-grid-box grid grid-rows-[auto_auto] gap-16 section-padding relative z-4 ">
+            <!-- footer-top -->
+            <div class="footer-top w-full h-auto flex justify-between items-start gap-4">
+              <!-- left -->
+              <div class="left direct-links w-fit flex justify-between items-start gap-8">
+                <div class="box box-1 text-white flex flex-col items-start justify-start gap-3">
+                  <a href="#" class="text-[(clamp(14px,_4vw,_16px))">About</a>
+                  <a href="#" class="text-[(clamp(14px,_4vw,_16px))]">Recent Projects</a>
+                  <a href="#" class="text-[(clamp(14px,_4vw,_16px))]">Testimonial</a>
+                  <a href="#" class="text-[(clamp(14px,_4vw,_16px))]">Blog</a>
+                </div>
+                <div class="box box-2  text-white flex flex-col items-start justify-start gap-3">
+                  <a href="#" class="text-[(clamp(14px,_4vw,_16px))]">Buy a Home</a>
+                  <a href="#" class="text-[(clamp(14px,_4vw,_16px))]">Sell a Property</a>
+                  <a href="#" class="text-[(clamp(14px,_4vw,_16px))]">- Rent a Home</a>
+                  <a href="#" class="text-[(clamp(14px,_4vw,_16px))]">Commercial Spaces</a>
+                  <a href="#" class="text-[(clamp(14px,_4vw,_16px))]">Verified Listing</a>
+                </div>
+                <div class="box box-3  text-white flex flex-col items-start justify-start gap-3">
+                  <a href="#" class="text-[(clamp(14px,_4vw,_16px))]">Home Loan Guide</a>
+                  <a href="#" class="text-[(clamp(14px,_4vw,_16px))]">Property Buying Tips</a>
+                  <a href="#" class="text-[(clamp(14px,_4vw,_16px))]">FAQs</a>
+                </div>
+                <div class="box box-4  text-white flex flex-col items-start justify-start gap-3">
+                  <a href="#" class="text-[(clamp(14px,_4vw,_16px))]">Help Center</a>
+                  <a href="#" class="text-[(clamp(14px,_4vw,_16px))]">Chat with Us</a>
+                  <a href="#" class="text-[(clamp(14px,_4vw,_16px))]">Report a Listing</a>
+                  <a href="#" class="text-[(clamp(14px,_4vw,_16px))]">Feedback</a>
+                </div>
+              </div>
+              <!-- right -->
+              <div class="right news-letter w-[500px] h-auto flex flex-col justify-start items-start gap-4">
+                <!-- top -->
+                <div class="top">
+                  <p class="!text-[#aaa]">Subscribe to our newsletter & get the latest property listings & exclusive
+                    real
+                    estate
+                    updates delivered straight to your inbox.</p>
+                  <div class="input-box w-full mt-6">
+                    <form action="#" method="post"
+                      class="w-full flex justify-between items-center p-2 border-1 border- border-solid bg-[#333] rounded-[4px]">
+                      <div class="input-fild w-full h-auto">
+                        <input type="email" placeholder="your email" class="w-full">
+                      </div>
+                      <div class="subscribe-btn flex-center">
+                        <a href="#" class="btn-style btn-style-outline">
+                          <div class="btn-slide">
+                            <span><i class="ri-corner-down-right-fill text-[18px]"></i></span>
+                          </div>
+                          <div class="btn-hover">
+                            <span class="relative top-[-2px]"><i
+                                class="ri-corner-down-right-fill  text-[18px]"></i></span>
+                          </div>
+                        </a>
+                      </div>
+                    </form>
+                  </div>
+                </div>
+                <!-- btm -->
+                <div class="btm mt-4">
+                  <div class="top">
+                    <ul class="flex flex-col justify-start items-start">
+                      <li class="flex justify-center items-center gap-3 mb-2"><i class="ri-map-pin-fill text-white"></i>
+                        <a href="#" class="text-[16px] text-white decoration-0">Abc Road, near town hall kolkata-
+                          700045</a>
+                      </li>
+                      <li class="flex justify-center items-center gap-3 mb-2"><i class="ri-mail-fill text-white"></i> <a
+                          href="mailto:nestora@gmail.com"
+                          class="text-[16px] text-white decoration-0">nestora@gmail.com</a></li>
+                      <li class="flex justify-center items-center gap-3"><i class="ri-phone-fill text-white"></i> <a
+                          href="tell:nestora@gmail.com"
+                          class="text-[16px] text-white decoration-0">nestora@gmail.com</a>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="btm mt-6 flex justify-start items-center gap-4">
+                    <a href="#"
+                      class="group inline-block icon icon-1 w-[50px] h-[50px] rounded-[50%] border-white border-1 flex-center hover:bg-white transition-colors duration-300">
+                      <i
+                        class="ri-facebook-fill text-white text-[18px] group-hover:text-black transition-colors duration-300"></i>
+                    </a>
+
+                    <a href="#"
+                      class="group inline-block icon icon-1 w-[50px] h-[50px] rounded-[50%] border-white border-1 flex-center hover:bg-white transition-colors duration-300">
+                      <i
+                        class="ri-instagram-fill text-white text-[18px] group-hover:text-black transition-colors duration-300"></i>
+                    </a>
+
+                    <a href="#"
+                      class="group inline-block icon icon-1 w-[50px] h-[50px] rounded-[50%] border-white border-1 flex-center hover:bg-white transition-colors duration-300">
+                      <i
+                        class="ri-twitter-x-fill text-white text-[18px] group-hover:text-black transition-colors duration-300"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- footer-btm -->
+            <div class="footer-btm w-full h-auto flex-center">
+              <img loading="lazy" src="assets/images/footer/logo-exp.png" alt="logo"
+                class="w-full h-full object-contain">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="footer-back-img w-full h-[400px] z-[-1] sticky bottom-0">
+      <img loading="lazy" src="assets/images/footer/img-2.webp" alt="footer bottom image"
+        class="img-set sticky bottom-0 object-center">
+    </div>
+  </footer>
+  <!-- ========== End footer ========== -->
+
+  <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js"></script>
+  <script src="https://unpkg.com/scrollreveal"></script>
+  <script src="assets/script/about.js"></script>
+  <script src="assets/script/common.js"></script>
+
+</body>
+
+</html>
