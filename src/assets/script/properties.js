@@ -78,25 +78,25 @@ async function loadAndDisplayItems() {
                     <ul class="w-full h-full flex justify-start items-center gap-6">
                       <li class="w-fit flex items-center gap-2">
                         <div class="img">
-                          <img src="../src/assets/images/properties/icon/measure.svg" alt="icon image for properties">
+                          <img src="assets/images/properties/icon/measure.svg" alt="icon image for properties">
                         </div>
                         <p class="text-[#333]">${property.specifications.carpet_area}</p>
                       </li>
                       <li class="w-fit flex items-center gap-2">
                         <div class="img">
-                          <img src="../src/assets/images/properties/icon/bed.svg" alt="icon image for properties">
+                          <img src="assets/images/properties/icon/bed.svg" alt="icon image for properties">
                         </div>
                         <p class="text-[#333]">${property.specifications.bedrooms}</p>
                       </li>
                       <li class="w-fit flex items-center gap-2">
                         <div class="img">
-                          <img src="../src/assets/images/properties/icon/bathroom.svg" alt="icon image for properties">
+                          <img src="assets/images/properties/icon/bathroom.svg" alt="icon image for properties">
                         </div>
                         <p class="text-[#333]">${property.specifications.bathrooms}</p>
                       </li>
                       <li class="w-fit flex items-center gap-2">
                         <div class="img">
-                          <img src="../src/assets/images/properties/icon/kitchen.svg" alt="icon image for properties">
+                          <img src="assets/images/properties/icon/kitchen.svg" alt="icon image for properties">
                         </div>
                         <p class="text-[#333]">${property.specifications.kitchen}</p>
                       </li>
@@ -128,4 +128,5 @@ async function loadAndDisplayItems() {
   }
 }
 loadAndDisplayItems();
+
 
