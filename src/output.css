@@ -215,9 +215,6 @@
   .top-\[10px\] {
     top: 10px;
   }
-  .top-\[70\%\] {
-    top: 70%;
-  }
   .right-\[10px\] {
     right: 10px;
   }
@@ -238,9 +235,6 @@
   }
   .left-\[-10px\] {
     left: -10px;
-  }
-  .left-\[16px\] {
-    left: 16px;
   }
   .z-2 {
     z-index: 2;
@@ -361,6 +355,9 @@
   }
   .inline-block {
     display: inline-block;
+  }
+  .table {
+    display: table;
   }
   .h-15 {
     height: calc(var(--spacing) * 15);
@@ -509,11 +506,17 @@
   .max-w-\[1920px\] {
     max-width: 1920px;
   }
+  .border-collapse {
+    border-collapse: collapse;
+  }
   .transform {
     transform: var(--tw-rotate-x,) var(--tw-rotate-y,) var(--tw-rotate-z,) var(--tw-skew-x,) var(--tw-skew-y,);
   }
   .cursor-pointer {
     cursor: pointer;
+  }
+  .resize {
+    resize: both;
   }
   .\[grid-template-columns\:repeat\(2\,minmax\(400px\,1fr\)\)\] {
     grid-template-columns: repeat(2,minmax(400px,1fr));
@@ -668,6 +671,10 @@
   .rounded-lg {
     border-radius: var(--radius-lg);
   }
+  .border {
+    border-style: var(--tw-border-style);
+    border-width: 1px;
+  }
   .border-1 {
     border-style: var(--tw-border-style);
     border-width: 1px;
@@ -738,14 +745,20 @@
   .bg-white {
     background-color: var(--color-white);
   }
-  .bg-\[url\(\/\.\.\/src\/assets\/images\/hero\/img-1\.webp\)\] {
-    background-image: url(/src/assets/images/hero/img-1.webp);
+  .bg-\[url\(\.\.\/src\/assets\/images\/hero\/img-1\.webp\)\] {
+    background-image: url(../src/assets/images/hero/img-1.webp);
   }
-  .bg-\[url\(\/\.\.\/src\/assets\/images\/hero\/img-2\.webp\)\] {
-     background-image: url(/src/assets/images/hero/img-2.webp);
+  .bg-\[url\(\/assets\/images\/hero\/img-1\.webp\)\] {
+    background-image: url(/assets/images/hero/img-1.webp);
   }
-  .bg-\[url\(\/\.\.\/src\/assets\/images\/hero\/img-3\.webp\)\] {
-     background-image: url(/src/assets/images/hero/img-3.webp);
+  .bg-\[url\(assets\/images\/hero\/img-1\.webp\)\] {
+    background-image: url(assets/images/hero/img-1.webp);
+  }
+  .bg-\[url\(assets\/images\/hero\/img-2\.webp\)\] {
+    background-image: url(assets/images/hero/img-2.webp);
+  }
+  .bg-\[url\(assets\/images\/hero\/img-3\.webp\)\] {
+    background-image: url(assets/images/hero/img-3.webp);
   }
   .bg-cover {
     background-size: cover;
@@ -944,6 +957,9 @@
   .text-nowrap {
     text-wrap: nowrap;
   }
+  .text-wrap {
+    text-wrap: wrap;
+  }
   .\!text-\[\#aaa\] {
     color: #aaa !important;
   }
@@ -973,6 +989,10 @@
   }
   .decoration-0 {
     text-decoration-thickness: 0px;
+  }
+  .outline {
+    outline-style: var(--tw-outline-style);
+    outline-width: 1px;
   }
   .filter {
     filter: var(--tw-blur,) var(--tw-brightness,) var(--tw-contrast,) var(--tw-grayscale,) var(--tw-hue-rotate,) var(--tw-invert,) var(--tw-saturate,) var(--tw-sepia,) var(--tw-drop-shadow,);
@@ -1767,6 +1787,11 @@ body.overflow-hidden {
   syntax: "*";
   inherits: false;
 }
+@property --tw-outline-style {
+  syntax: "*";
+  inherits: false;
+  initial-value: solid;
+}
 @property --tw-blur {
   syntax: "*";
   inherits: false;
@@ -1836,6 +1861,7 @@ body.overflow-hidden {
       --tw-leading: initial;
       --tw-font-weight: initial;
       --tw-tracking: initial;
+      --tw-outline-style: solid;
       --tw-blur: initial;
       --tw-brightness: initial;
       --tw-contrast: initial;
