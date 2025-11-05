@@ -1,0 +1,533 @@
+[
+  {
+    "id": "T001",
+    "name": "Willow Townhouse",
+    "category": "townhouse",
+    "address": "12 Willow Lane, New Town, Kolkata, WB",
+    "price": "85 lakh",
+    "price_digit": "85,00,000",
+    "specifications": {
+      "carpet_area": "1450 sq ft",
+      "bedrooms": 3,
+      "bathrooms": 2,
+      "kitchen": 1,
+      "type": "Ready-to-move"
+    },
+    "description": "Willow Townhouse offers a serene lifestyle in the heart of New Town, Kolkata. Designed for comfort and elegance, this 3-bedroom home features spacious interiors, premium fittings, and ample natural light. Its modern kitchen, landscaped surroundings, and easy access to schools, shopping, and public transport make it ideal for families. The townhouse’s peaceful neighborhood combines contemporary living with everyday convenience.",
+    "facing_direction": "North-East",
+    "images": [
+      "assets/images/properties/t-1.webp",
+      "assets/images/properties/t-1a.webp",
+      "assets/images/properties/t-1b.webp",
+      "assets/images/properties/t-1c.webp"
+    ]
+  },
+  {
+    "id": "T002",
+    "name": "Garden View Townhouse",
+    "category": "townhouse",
+    "address": "45 Garden View, Rajarhat, Kolkata, WB",
+    "price": "92 lakh",
+    "price_digit": "92,00,000",
+    "specifications": {
+      "carpet_area": "1600 sq ft",
+      "bedrooms": 4,
+      "bathrooms": 3,
+      "kitchen": 1,
+      "type": "Under-construction"
+    },
+    "description": "A spacious 4-bedroom townhouse in the rapidly developing area of Rajarhat. Features include a dedicated garden area, modern fittings, and a focus on natural light and ventilation. Located close to major IT hubs and expressways, it promises a high-quality, convenient lifestyle for modern families.",
+    "facing_direction": "East-facing",
+    "images": [
+      "assets/images/properties/t-2.webp",
+      "assets/images/properties/t-2a.webp",
+      "assets/images/properties/t-2b.webp",
+      "assets/images/properties/t-2c.webp"
+    ]
+  },
+  {
+    "id": "T003",
+    "name": "Orchid Lane Townhouse",
+    "category": "townhouse",
+    "address": "7 Orchid Lane, Pune, Maharashtra",
+    "price": "78 lakh",
+    "price_digit": "78,00,000",
+    "specifications": {
+      "carpet_area": "1380 sq ft",
+      "bedrooms": 3,
+      "bathrooms": 2,
+      "kitchen": 1,
+      "type": "Resale property"
+    },
+    "description": "This charming resale property in a prime Pune location is ready for immediate occupancy. A well-maintained 3 BHK unit with comfortable living spaces and access to community amenities. Perfect for those seeking a value-for-money home with a proven track record.",
+    "facing_direction": "West-facing",
+    "images": [
+      "assets/images/properties/t-3.webp",
+      "assets/images/properties/t-3a.webp",
+      "assets/images/properties/t-3b.webp",
+      "assets/images/properties/t-3c.webp"
+    ]
+  },
+  {
+    "id": "T004",
+    "name": "Maple Street Townhouse",
+    "category": "townhouse",
+    "address": "19 Maple Street, Bengaluru, Karnataka",
+    "price": "88 lakh",
+    "price_digit": "88,00,000",
+    "specifications": {
+      "carpet_area": "1500 sq ft",
+      "bedrooms": 3,
+      "bathrooms": 2,
+      "kitchen": 1,
+      "type": "Ready-to-move"
+    },
+    "description": "Elegant and ready-to-move 3 BHK townhouse in a quiet, upscale neighborhood of Bengaluru. Boasts modern architectural design, high-quality finishes, and proximity to the city’s best schools and tech parks. A perfect blend of style and suburban peace.",
+    "facing_direction": "North-facing",
+    "images": [
+      "assets/images/properties/t-4.webp",
+      "assets/images/properties/t-4a.webp"
+    ]
+  },
+  {
+    "id": "T005",
+    "name": "Sunset Villas Townhouse",
+    "category": "townhouse",
+    "address": "Sunset Villas, Anna Nagar, Chennai, Tamil Nadu",
+    "price": "95 lakh",
+    "price_digit": "95,00,000",
+    "specifications": {
+      "carpet_area": "1650 sq ft",
+      "bedrooms": 4,
+      "bathrooms": 3,
+      "kitchen": 1,
+      "type": "Under-construction"
+    },
+    "description": "An exciting opportunity to customize your dream home. This 4-bedroom townhouse is currently under construction in the sought-after Anna Nagar locality. It promises spacious living, premium amenities, and a contemporary design tailored for the future homeowner.",
+    "facing_direction": "South-East",
+    "images": [
+      "assets/images/properties/t-5.webp",
+      "assets/images/properties/t-5a.webp",
+      "assets/images/properties/t-5b.webp"
+    ]
+  },
+  {
+    "id": "T006",
+    "name": "Rosewood Enclave Townhouse",
+    "category": "townhouse",
+    "address": "Rosewood Enclave, Dwarka, Delhi",
+    "price": "1.05 crore",
+    "price_digit": "1,05,00,000",
+    "specifications": {
+      "carpet_area": "1750 sq ft",
+      "bedrooms": 4,
+      "bathrooms": 3,
+      "kitchen": 1,
+      "type": "Ready-to-move"
+    },
+    "description": "A luxury 4 BHK townhouse in Dwarka, Delhi, offering an expansive 1750 sq ft of carpet area. Ready for immediate occupancy, it features top-tier security, dedicated parking, and is located in a well-established, premium residential enclave.",
+    "facing_direction": "North-West",
+    "images": [
+      "assets/images/properties/t-6.webp",
+      "assets/images/properties/t-6a.webp",
+      "assets/images/properties/t-6b.webp",
+      "assets/images/properties/t-6c.webp"
+    ]
+  },
+  {
+    "id": "P001",
+    "name": "Skyline Heights Penthouse",
+    "category": "penthouse",
+    "address": "Skyline Heights, Salt Lake, Kolkata, WB",
+    "price": "2.1 crore",
+    "price_digit": "2,10,00,000",
+    "specifications": {
+      "carpet_area": "2200 sq ft",
+      "bedrooms": 4,
+      "bathrooms": 3,
+      "kitchen": 1,
+      "type": "Ready-to-move"
+    },
+    "description": "Experience luxury at its peak with this ready-to-move 4 BHK penthouse offering stunning views of Salt Lake, Kolkata. Features a private terrace, high-end marble flooring, and centralized air conditioning. This is urban living redefined.",
+    "facing_direction": "East-facing",
+    "images": [
+      "assets/images/properties/p-1.webp",
+      "assets/images/properties/p-1a.webp",
+      "assets/images/properties/p-1b.webp"
+    ]
+  },
+  {
+    "id": "P002",
+    "name": "Cloud Nine Tower Penthouse",
+    "category": "penthouse",
+    "address": "Cloud Nine Tower, Ballygunge, Kolkata, WB",
+    "price": "2.35 crore",
+    "price_digit": "2,35,00,000",
+    "specifications": {
+      "carpet_area": "2400 sq ft",
+      "bedrooms": 5,
+      "bathrooms": 4,
+      "kitchen": 1,
+      "type": "Under-construction"
+    },
+    "description": "A premier 5 BHK under-construction penthouse in the coveted Ballygunge area. This property offers the chance to select personalized interior finishes and a grand living experience with unparalleled city vistas from a high-rise tower.",
+    "facing_direction": "North-East",
+    "images": [
+      "assets/images/properties/p-2.webp",
+      "assets/images/properties/p-2a.webp"
+    ]
+  },
+  {
+    "id": "P003",
+    "name": "Vista Point Penthouse",
+    "category": "penthouse",
+    "address": "Vista Point, Park Street, Kolkata, WB",
+    "price": "2.5 crore",
+    "price_digit": "2,50,00,000",
+    "specifications": {
+      "carpet_area": "2600 sq ft",
+      "bedrooms": 5,
+      "bathrooms": 4,
+      "kitchen": 2,
+      "type": "Resale property"
+    },
+    "description": "A rare resale opportunity for a sprawling 5 BHK penthouse right off Park Street. This home includes two fully-equipped kitchens, extensive balcony space, and a history of prestigious residency in a landmark building.",
+    "facing_direction": "West-facing",
+    "images": [
+      "assets/images/properties/p-3.webp",
+      "assets/images/properties/p-3a.webp",
+      "assets/images/properties/p-3b.webp",
+      "assets/images/properties/p-3c.webp"
+    ]
+  },
+  {
+    "id": "P004",
+    "name": "Zenith Tower Penthouse",
+    "category": "penthouse",
+    "address": "Zenith Tower, EM Bypass, Kolkata, WB",
+    "price": "2.2 crore",
+    "price_digit": "2,20,00,000",
+    "specifications": {
+      "carpet_area": "2300 sq ft",
+      "bedrooms": 4,
+      "bathrooms": 3,
+      "kitchen": 1,
+      "type": "Ready-to-move"
+    },
+    "description": "Ready-to-move 4 BHK penthouse strategically located on the EM Bypass, ensuring excellent connectivity. Features floor-to-ceiling windows for panoramic views, a modern modular kitchen, and access to all high-rise amenities.",
+    "facing_direction": "South-facing",
+    "images": [
+      "assets/images/properties/p-4.webp",
+      "assets/images/properties/p-4a.webp"
+    ]
+  },
+  {
+    "id": "P005",
+    "name": "Ocean Crest Penthouse",
+    "category": "penthouse",
+    "address": "Ocean Crest, Bandra West, Mumbai, Maharashtra",
+    "price": "3.1 crore",
+    "price_digit": "3,10,00,000",
+    "specifications": {
+      "carpet_area": "2800 sq ft",
+      "bedrooms": 5,
+      "bathrooms": 4,
+      "kitchen": 2,
+      "type": "Ready-to-move"
+    },
+    "description": "An unparalleled 5 BHK penthouse in the elite Bandra West area, offering spectacular sea views. This ready-to-move luxury residence is designed with bespoke interiors and an entertainer’s dream layout, including a massive private deck.",
+    "facing_direction": "West-facing",
+    "images": [
+      "assets/images/properties/p-5.webp",
+      "assets/images/properties/p-5a.webp",
+      "assets/images/properties/p-5b.webp"
+    ]
+  },
+  {
+    "id": "P006",
+    "name": "Skyview Residences Penthouse",
+    "category": "penthouse",
+    "address": "Skyview Residences, Indiranagar, Bengaluru, Karnataka",
+    "price": "2.75 crore",
+    "price_digit": "2,75,00,000",
+    "specifications": {
+      "carpet_area": "2500 sq ft",
+      "bedrooms": 4,
+      "bathrooms": 3,
+      "kitchen": 1,
+      "type": "Under-construction"
+    },
+    "description": "Pre-launch opportunity for a grand 4 BHK penthouse in the vibrant Indiranagar locality. This under-construction project promises premium finishes, state-of-the-art security, and a community known for its sophisticated residents.",
+    "facing_direction": "North-facing",
+    "images": [
+      "assets/images/properties/p-6.webp",
+      "assets/images/properties/p-6a.webp",
+      "assets/images/properties/p-6b.webp",
+      "assets/images/properties/p-6c.webp"
+    ]
+  },
+  {
+    "id": "A001",
+    "name": "Green Residency Apartment",
+    "category": "apartment",
+    "address": "Green Residency, Barrackpore, WB",
+    "price": "58 lakh",
+    "price_digit": "58,00,000",
+    "specifications": {
+      "carpet_area": "980 sq ft",
+      "bedrooms": 2,
+      "bathrooms": 2,
+      "kitchen": 1,
+      "type": "Resale property"
+    },
+    "description": "Affordable and well-maintained 2 BHK resale apartment in Barrackpore. Ideal for first-time homebuyers or small families, offering a peaceful residential environment and excellent local connectivity.",
+    "facing_direction": "East-facing",
+    "images": [
+      "assets/images/properties/a-1.webp",
+      "assets/images/properties/a-1a.webp"
+    ]
+  },
+  {
+    "id": "A002",
+    "name": "Sunrise Apartments",
+    "category": "apartment",
+    "address": "Sunrise Apartments, Kestopur, Kolkata, WB",
+    "price": "65 lakh",
+    "price_digit": "65,00,000",
+    "specifications": {
+      "carpet_area": "1050 sq ft",
+      "bedrooms": 3,
+      "bathrooms": 2,
+      "kitchen": 1,
+      "type": "Ready-to-move"
+    },
+    "description": "Ready-to-move 3 BHK apartment offering a comfortable, spacious living area in Kestopur. The complex provides 24/7 security, community hall access, and is strategically located near major public transport routes.",
+    "facing_direction": "North-facing",
+    "images": [
+      "assets/images/properties/a-2.webp",
+      "assets/images/properties/a-2a.webp",
+      "assets/images/properties/a-2b.webp"
+    ]
+  },
+  {
+    "id": "A003",
+    "name": "Lotus Enclave Apartment",
+    "category": "apartment",
+    "address": "Lotus Enclave, Dum Dum, Kolkata, WB",
+    "price": "60 lakh",
+    "price_digit": "60,00,000",
+    "specifications": {
+      "carpet_area": "1000 sq ft",
+      "bedrooms": 2,
+      "bathrooms": 2,
+      "kitchen": 1,
+      "type": "Resale property"
+    },
+    "description": "A valuable resale property near the Dum Dum metro station. This 2 BHK apartment is a fantastic investment, featuring well-lit rooms, functional layouts, and a neighborhood with strong community ties.",
+    "facing_direction": "South-West",
+    "images": [
+      "assets/images/properties/a-3.webp",
+      "assets/images/properties/a-3a.webp",
+      "assets/images/properties/a-3b.webp",
+      "assets/images/properties/a-3c.webp"
+    ]
+  },
+  {
+    "id": "A004",
+    "name": "Harmony Towers Apartment",
+    "category": "apartment",
+    "address": "Harmony Towers, Barasat, WB",
+    "price": "62 lakh",
+    "price_digit": "62,00,000",
+    "specifications": {
+      "carpet_area": "1020 sq ft",
+      "bedrooms": 3,
+      "bathrooms": 2,
+      "kitchen": 1,
+      "type": "Under-construction"
+    },
+    "description": "Invest in a future home with this under-construction 3 BHK apartment in Barasat. Located in a promising development, it offers modern living, dedicated resident facilities, and excellent potential for property value appreciation.",
+    "facing_direction": "East-facing",
+    "images": [
+      "assets/images/properties/a-4.webp",
+      "assets/images/properties/a-4a.webp"
+    ]
+  },
+  {
+    "id": "A005",
+    "name": "Silver Springs Apartment",
+    "category": "apartment",
+    "address": "Silver Springs, Andheri East, Mumbai, Maharashtra",
+    "price": "72 lakh",
+    "price_digit": "72,00,000",
+    "specifications": {
+      "carpet_area": "1100 sq ft",
+      "bedrooms": 3,
+      "bathrooms": 2,
+      "kitchen": 1,
+      "type": "Ready-to-move"
+    },
+    "description": "Ready-to-move 3 BHK in the bustling hub of Andheri East. This apartment is perfect for working professionals, offering swift access to corporate offices, the airport, and all key city landmarks.",
+    "facing_direction": "North-West",
+    "images": [
+      "assets/images/properties/a-5.webp",
+      "assets/images/properties/a-5a.webp",
+      "assets/images/properties/a-5b.webp"
+    ]
+  },
+  {
+    "id": "A006",
+    "name": "Lakeview Apartments",
+    "category": "apartment",
+    "address": "Lakeview Apartments, Koramangala, Bengaluru, Karnataka",
+    "price": "68 lakh",
+    "price_digit": "68,00,000",
+    "specifications": {
+      "carpet_area": "1080 sq ft",
+      "bedrooms": 2,
+      "bathrooms": 2,
+      "kitchen": 1,
+      "type": "Under-construction"
+    },
+    "description": "Modern 2 BHK apartment under construction in the sought-after Koramangala area. Promises a lifestyle with a view, proximity to tech parks, and a vibrant social scene, making it ideal for young urban families.",
+    "facing_direction": "South-facing",
+    "images": [
+      "assets/images/properties/a-6.webp",
+      "assets/images/properties/a-6a.webp",
+      "assets/images/properties/a-6b.webp",
+      "assets/images/properties/a-6c.webp"
+    ]
+  },
+  {
+    "id": "F001",
+    "name": "Riverside Retreat Farmhouse",
+    "category": "farmhouse",
+    "address": "Riverside Retreat, Chandannagar, WB",
+    "price": "1.75 crore",
+    "price_digit": "1,75,00,000",
+    "specifications": {
+      "carpet_area": "3000 sq ft",
+      "bedrooms": 5,
+      "bathrooms": 4,
+      "kitchen": 2,
+      "type": "Resale property"
+    },
+    "description": "A magnificent 5 BHK resale farmhouse located on the banks of the river near Chandannagar. Boasts sprawling grounds, a private pool area, and luxurious interiors—a perfect weekend getaway or primary residence.",
+    "facing_direction": "East-facing",
+    "images": [
+      "assets/images/properties/f-1.webp",
+      "assets/images/properties/f-1a.webp",
+      "assets/images/properties/f-1b.webp"
+    ]
+  },
+  {
+    "id": "F002",
+    "name": "Mango Grove Estate Farmhouse",
+    "category": "farmhouse",
+    "address": "Mango Grove Estate, Shantiniketan, WB",
+    "price": "1.9 crore",
+    "price_digit": "1,90,00,000",
+    "specifications": {
+      "carpet_area": "3200 sq ft",
+      "bedrooms": 6,
+      "bathrooms": 5,
+      "kitchen": 2,
+      "type": "Ready-to-move"
+    },
+    "description": "A ready-to-move 6 BHK estate in the cultural heart of Shantiniketan. The property features extensive mango groves, classic architectural design, and immense space for large gatherings and peaceful living.",
+    "facing_direction": "North-East",
+    "images": [
+      "assets/images/properties/f-2.webp",
+      "assets/images/properties/f-2a.webp",
+      "assets/images/properties/f-2b.webp",
+      "assets/images/properties/f-2c.webp"
+    ]
+  },
+  {
+    "id": "F003",
+    "name": "Palm View Villa Farmhouse",
+    "category": "farmhouse",
+    "address": "Palm View Villa, Diamond Harbour, WB",
+    "price": "1.65 crore",
+    "price_digit": "1,65,00,000",
+    "specifications": {
+      "carpet_area": "2800 sq ft",
+      "bedrooms": 4,
+      "bathrooms": 3,
+      "kitchen": 1,
+      "type": "Under-construction"
+    },
+    "description": "Under-construction 4 BHK farmhouse near Diamond Harbour. This property is being developed with an emphasis on coastal luxury, offering ample space and serene views, customizable to your taste.",
+    "facing_direction": "West-facing",
+    "images": [
+      "assets/images/properties/f-3.webp",
+      "assets/images/properties/f-3a.webp"
+    ]
+  },
+  {
+    "id": "F004",
+    "name": "Serenity Acres Farmhouse",
+    "category": "farmhouse",
+    "address": "Serenity Acres, Bolpur, WB",
+    "price": "2 crore",
+    "price_digit": "2,00,00,000",
+    "specifications": {
+      "carpet_area": "3500 sq ft",
+      "bedrooms": 6,
+      "bathrooms": 5,
+      "kitchen": 2,
+      "type": "Ready-to-move"
+    },
+    "description": "Massive 6 BHK ready-to-move farmhouse in the green landscapes of Bolpur. It is an ideal investment for luxury rural living, complete with manicured gardens and high-end security systems.",
+    "facing_direction": "North-facing",
+    "images": [
+      "assets/images/properties/f-4.webp",
+      "assets/images/properties/f-4a.webp",
+      "assets/images/properties/f-4b.webp"
+    ]
+  },
+  {
+    "id": "F005",
+    "name": "Whispering Pines Farmhouse",
+    "category": "farmhouse",
+    "address": "Whispering Pines, Lonavala, Maharashtra",
+    "price": "2.25 crore",
+    "price_digit": "2,25,00,000",
+    "specifications": {
+      "carpet_area": "3700 sq ft",
+      "bedrooms": 5,
+      "bathrooms": 4,
+      "kitchen": 2,
+      "type": "Resale property"
+    },
+    "description": "This stunning 5 BHK resale farmhouse in Lonavala’s hills offers breathtaking valley views and cool weather. Features include wooden paneling, a fireplace, and a large outdoor patio for relaxation.",
+    "facing_direction": "South-East",
+    "images": [
+      "assets/images/properties/f-5.webp",
+      "assets/images/properties/f-5a.webp",
+      "assets/images/properties/f-5b.webp",
+      "assets/images/properties/f-5c.webp"
+    ]
+  },
+  {
+    "id": "F006",
+    "name": "Coconut Grove Estate Farmhouse",
+    "category": "farmhouse",
+    "address": "Coconut Grove Estate, ECR Road, Chennai, Tamil Nadu",
+    "price": "2.4 crore",
+    "price_digit": "2,40,00,000",
+    "specifications": {
+      "carpet_area": "3900 sq ft",
+      "bedrooms": 6,
+      "bathrooms": 5,
+      "kitchen": 2,
+      "type": "Ready-to-move"
+    },
+    "description": "An expansive 6 BHK beach-side farmhouse on ECR Road, Chennai. This ready-to-move property provides direct beach access, a coconut plantation, and a true resort-like living experience.",
+    "facing_direction": "East-facing",
+    "images": [
+      "assets/images/properties/f-6.webp",
+      "assets/images/properties/f-6a.webp"
+    ]
+  }
+]
