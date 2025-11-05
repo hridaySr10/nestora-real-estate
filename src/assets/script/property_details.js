@@ -18,7 +18,7 @@ async function loadPropertyDetails() {
     return;
   }
   try {
-    let response = await fetch("../src/assets/properties.json");
+    let response = await fetch("assets/properties.json");
     if (!response.ok) {
       throw new Error("failed to load");
     }
@@ -251,3 +251,4 @@ async function loadPropertyDetails() {
   } catch {}
 }
 loadPropertyDetails();
+
