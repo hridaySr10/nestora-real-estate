@@ -20,7 +20,7 @@ async function loadAndDisplayItems() {
   titleElement.textContent = `loading... ${categoryId.toUpperCase()} property lists`;
 
   try {
-    const response = await fetch("../src/assets/properties.json");
+    const response = await fetch("assets/properties.json");
 
     if (!response.ok) {
       throw new Error("failed to load");
@@ -128,3 +128,4 @@ async function loadAndDisplayItems() {
   }
 }
 loadAndDisplayItems();
+
